@@ -1,2 +1,4 @@
-# notification_badges_card
+# Notification Badges Card
 Carte home assistant pour gérer des notifications visuelles sur le dashboard
+
+
