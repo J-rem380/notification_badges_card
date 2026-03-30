@@ -35,7 +35,7 @@ type: module JavaScript
 type: custom:notification-badges-card
 layout_options:
   grid_columns: 9
-  grid_rows: 1
+  grid_rows: auto
 badge_height: "36px"
 font_size: "0.85em"
 notifications:
