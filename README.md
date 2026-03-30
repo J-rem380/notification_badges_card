@@ -19,11 +19,6 @@ Carte personnalisée pour Home Assistant permettant d’afficher des **badges de
 
 ## 📦 Installation
 
-### Via HACS (recommandé)
-1. Ajouter ce dépôt comme dépôt personnalisé
-2. Installer la carte
-3. Ajouter la ressource dans Lovelace si nécessaire
-
 ### Manuelle
 1. Copier `notification-badges-card.js` dans : /config/www/
 2. Ajouter dans les ressources Lovelace : 
