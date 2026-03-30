@@ -134,17 +134,7 @@ Selon le type d’entité :
 
 ---
 
-## 🔒 Mode lecture seule
-
-Empêche toute interaction :
-
-```yaml
-readonly: true
-```
-
----
-
-## 📐 Layout
+## Layout
 
 Compatible avec les dashboards en grille :
 
@@ -156,52 +146,10 @@ layout_options:
 
 ---
 
-## 🧪 Exemple complet
 
-```yaml
-type: custom:notification-badges-card
-badge_height: 38px
-font_size: 0.8em
-
-notifications:
-  - entity: input_boolean.courrier
-    message: Vous avez du courrier
-    color: firebrick
-    icon: mdi:mailbox
-
-  - entity: input_boolean.poubelle_jaune
-    message: Recyclage à sortir
-    color: "#e67e22"
-    icon: mdi:recycle
-
-  - entity: input_boolean.orage_en_cours
-    message: "Orage: {{sensor.blitzortung_lightning_counter}}"
-    color: darkolivegreen
-    icon: mdi:lightning-bolt
-    readonly: true
-```
-
----
-
-## 🚀 Roadmap
-
-* Conditions avancées (AND / OR)
-* Animations
-* Support des templates Jinja complets
-* Actions personnalisées au clic
-
----
-
-## 🤝 Contribution
+## Contribution
 
 Les PR sont bienvenues !
 Merci de décrire clairement les changements proposés.
 
----
 
-## 📄 Licence
-
-MIT
-
-```
-```
